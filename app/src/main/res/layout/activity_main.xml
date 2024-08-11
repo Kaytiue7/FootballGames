@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewPlayerPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:background="#E0E0E0"
+            android:contentDescription="Player Photo"
+            android:scaleType="centerCrop" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age" />
+
+        <EditText
+            android:id="@+id/editTextPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Position" />
+
+        <EditText
+            android:id="@+id/editTextTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Team" />
+
+        <EditText
+            android:id="@+id/editTextReyting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reyting" />
+
+        <EditText
+            android:id="@+id/editTextPace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pace" />
+
+        <EditText
+            android:id="@+id/editTextShoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shoot" />
+
+        <EditText
+            android:id="@+id/editTextHeadKick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Head Kick" />
+
+        <EditText
+            android:id="@+id/editTextPas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pas" />
+
+        <EditText
+            android:id="@+id/editTextDribling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dribling" />
+
+        <EditText
+            android:id="@+id/editTextPhysical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Physical" />
+
+        <EditText
+            android:id="@+id/editTextDurability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durability" />
+
+        <EditText
+            android:id="@+id/editTextDefence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Defence" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
